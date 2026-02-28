@@ -1,0 +1,143 @@
+#fotoPerfil {
+    margin-top: 12px;
+}
+
+#reptoductor{
+    margin-top: 12px;
+    width: 100%;
+}
+
+#footer {
+    margin-top: 12px;
+    text-align: center;
+
+}
+
+@keyframes pulse-red {
+    0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.7); }
+    70% { transform: scale(1); box-shadow: 0 0 0 6px rgba(220, 38, 38, 0); }
+    100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(220, 38, 38, 0); }
+}
+
+@keyframes pulse-purple {
+    0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(169, 112, 255, 0.7); }
+    70% { transform: scale(1); box-shadow: 0 0 0 6px rgba(169, 112, 255, 0); }
+    100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(169, 112, 255, 0); }
+}
+
+@keyframes pulse {
+  0% { transform: scale(0.9); opacity: 1; }
+  70% { transform: scale(1.2); opacity: 0.7; }
+  100% { transform: scale(0.9); opacity: 1; }
+}
+
+.animate-pulse-custom {
+  animation: pulse 2s infinite ease-in-out;
+}
+
+
+.dot-live-red {
+    background-color: #ff0000;
+    animation: pulse-red 2s infinite;
+}
+
+.dot-live-purple {
+    background-color: #a970ff;
+    animation: pulse-purple 2s infinite;
+}
+
+.dot-offline {
+    background-color: #db691d; /* Sin animación */
+}
+
+#btn-twitch{
+    background-color: #9146FF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+#btn-twitch:hover {
+    background-color: #772ce8;
+}
+
+#btn-youtube{
+    background-color: #FF0000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}   
+
+#btn-youtube:hover {
+    background-color: #cc0000;
+}
+
+#btn-facebook{
+    background-color: #1877F2;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+#btn-facebook:hover {
+    background-color: #0f5bb5;
+}
+
+#btn-tiktok{
+    background-color: #0d0e0e;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+#btn-tiktok:hover {
+    background-color: #45a9b0;
+}
+
+#btn-instagram{
+    background-color: #E1306C;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+#btn-instagram:hover {
+    background-color: #c1275b;
+}
+
+#btn-threads{
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+#btn-threads:hover {
+    background-color: #222222;
+}
+
+a{
+    margin-top: 5px; 
+}
+
+#spotiCard  {
+    width: 89%;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingame14</title>
+    <link rel="icon" href="https://cdn.discordapp.com/attachments/1476077131871031306/1476087174939279415/ngAN1uVKIXFUXNxUK-hXXIb8UPbc4MvaLSfEPEqH1Y0s1TVC0lvddjPa3DUgnO5Qv7voxLxns160-c-k-c0x00ffffff-no-rj.png?ex=699fd8ce&is=699e874e&hm=9697d8e8ea9f9df78080db4bf7e19df01eea0f04375d5a8da6a8b65adab6c578&">
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!--Tailwind-->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body class="bg-[url('https://static-cdn.jtvnw.net/jtv_user_pictures/b0bdf487-bbac-46b7-8429-6c11d188231a-profile_banner-480.jpeg')] bg-cover bg-center bg-no-repeat bg-fixed">
+    <div class="container mx-auto px-4">
+       <div class="w-32 h-32 mx-auto rounded-full 
+            bg-[url('https://cdn.discordapp.com/attachments/1476077131871031306/1476087174939279415/ngAN1uVKIXFUXNxUK-hXXIb8UPbc4MvaLSfEPEqH1Y0s1TVC0lvddjPa3DUgnO5Qv7voxLxns160-c-k-c0x00ffffff-no-rj.png?ex=699fd8ce&is=699e874e&hm=9697d8e8ea9f9df78080db4bf7e19df01eea0f04375d5a8da6a8b65adab6c578&')] 
+            bg-cover bg-center
+            relative overflow-hidden border-2" id="fotoPerfil">
+        </div>
+
+        <div class="relative group">
+            <div id="status-banner" class="absolute top-4 right-4 z-10 flex items-center gap-2 px-3 py-1 rounded-md bg-black/60 backdrop-blur-sm border border-white/10 transition-all">
+                <span id="status-dot" class="w-2 h-2 rounded-full bg-gray-500 shadow-[0_0_8px_rgba(0,0,0,0.5)]"></span>
+                <span id="status-text" class="text-xs font-bold uppercase tracking-wider text-white">Comprobando...</span>
+            </div>
+
+            <div id="reptoductor" class="relative aspect-video w-full max-w-4xl mx-auto rounded-2xl overflow-hidden border-4 border-cyan-500 shadow-[0_0_20px_rgba(6,182,212,0.5)]">
+                <div class="absolute inset-y-0 left-0 w-12 bg-cyan-500/20 backdrop-blur-sm flex items-center justify-center border-r border-cyan-500 z-10">
+                    <span class="rotate-90 text-cyan-400 font-bold tracking-widest text-xs">INGAME14</span>
+                </div>
+
+                <div id="video-slot" class="w-full h-full flex items-center justify-center bg-black text-white">
+                    Cargando contenido....
+                </div>
+            </div>
+        </div>
+
+        <div class="flex flex-col md:flex-row gap-8 items-start justify-center w-full mt-6">
+            
+            <div id="spotiCard">
+                <iframe data-testid="embed-iframe" style="border-radius:12px" 
+                src="https://open.spotify.com/embed/show/54rrF4c795r9zuCUregNfo?utm_source=generator" 
+                width="100%" height="352" frameBorder="0" allowfullscreen="" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                loading="lazy"></iframe>
+            </div>
+            <div id="socialButtons" class="w-full md:w-3/4">
+                <a id="btn-twitch" href="https://www.twitch.tv/ingame_14" target="_blank" 
+                class="flex items-center gap-2 px-6 py-2 rounded-xl font-bold uppercase tracking-tighter transition-all duration-300 transform hover:scale-105">
+                <i class="fab fa-twitch"></i> Twitch
+                </a>
+
+                <a id="btn-youtube" href="https://www.youtube.com/@ingame14" target="_blank" 
+                class="flex items-center gap-2 px-6 py-2 rounded-xl font-bold uppercase tracking-tighter transition-all duration-300 transform hover:scale-105">
+                <i class="fab fa-youtube"></i> YouTube
+                </a>
+
+                <a id="btn-tiktok" href="https://www.tiktok.com/@ingame_14" target="_blank" 
+                class="flex items-center gap-2 px-6 py-2 rounded-xl font-bold uppercase tracking-tighter transition-all duration-300 transform hover:scale-105">
+                <i class="fab fa-tiktok"></i> TikTok
+                </a>
+
+                <a id="btn-instagram" href="https://www.instagram.com/ingame14/" target="_blank" 
+                class="flex items-center gap-2 px-6 py-2 rounded-xl font-bold uppercase tracking-tighter transition-all duration-300 transform hover:scale-105">
+                <i class="fab fa-instagram"></i> Instagram
+                </a>
+
+                <a id="btn-threads" href="https://threads.net/@ingame14" target="_blank" 
+                class="flex items-center gap-2 px-6 py-2 rounded-xl font-bold uppercase tracking-tighter transition-all duration-300 transform hover:scale-105">
+                <i class="fab fa-threads"></i> Threads
+                </a>
+
+                <a id="btn-facebook" href="https://www.facebook.com/INGAME14/?fref=ts" target="_blank" 
+                class="flex items-center gap-2 px-6 py-2 rounded-xl font-bold uppercase tracking-tighter transition-all duration-300 transform hover:scale-105">
+                <i class="fab fa-facebook"></i> Facebook
+                </a>
+            </div>
+        </div>    
+        
+            <footer id="footer" class="mt-auto py-8 text-center border-t border-white/5 bg-black/20 backdrop-blur-md">
+                <div class="flex flex-col items-center gap-3">
+                    <img src="Media/img/LogoDodo.webp" alt="Dodo Digital" class="w-10 h-10 opacity-70 hover:opacity-100 transition-all duration-300">
+                    
+                    <div class="text-gray-500 text-xs">
+                        <p>© 2026 <span class="text-gray-300 font-medium">Dodo</span> - Todos los derechos reservados.</p>
+                        <p class="mt-1">Desarrollado con ❤️ para <span class="text-gray-300 font-medium">Ingame14</span> y la comunidad.</p>
+                    </div>
+                </div>
+            </footer>
+    
+    </div>  
+    <script src="script.js"></script>
+</body>
+</html>
