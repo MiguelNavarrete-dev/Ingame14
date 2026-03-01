@@ -1,7 +1,7 @@
 const CONFIG = {
     API_URL: 'control-api.php',
     TWITCH_CHANNEL_NAME: 'ingame_14',
-    PARENT_DOMAIN: window.location.hostname // Cambia esto por tu dominio real
+    PARENT_DOMAIN: window.location.hostname 
 };
 
 async function fetchYouTubeData() {

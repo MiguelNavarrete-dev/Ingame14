@@ -4,8 +4,7 @@
         'YT_CHANNEL_ID' => 'UCdSCF6z_wjSoNo-H2WR1rVQ',
         'TWITCH_CLIENT_ID' => 'gzk9fqigqj4na4qbvgzctx63zc0ele',
         'TWITCH_CLIENT_SECRET' => 'u2shbehaapt1bkfyrerb68n6yb6mu8',
-        'TWITCH_CHANNEL_NAME' => 'ingame_14',
-        'PARENT_DOMAIN' => 'localhost' 
+        'TWITCH_CHANNEL_NAME' => 'ingame_14'
     ];
 
     header('Content-Type: application/json');
