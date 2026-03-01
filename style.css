@@ -134,6 +134,20 @@
     background-color: #222222;
 }
 
+#btn-discord{
+    background-color: #7289DA;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+#btn-discord:hover {
+    background-color: #5b6eae;
+}
+
 a{
     margin-top: 5px; 
 }
