@@ -146,12 +146,12 @@ async function sincronizarTodo() {
     const ultimoYT = await fetchUltimoDirectoYouTube();
     if (ultimoYT) {
         mostrarEnPantalla(ultimoYT, 'youtube');
+        return 'offline';
     } else {
         const ultimoTwitchId = await fetchUltimoDirectoTwitch();
         mostrarEnPantalla(ultimoTwitchId, 'twitch'); 
+        return 'offline';
     }
-    
-    return 'offline';
 }
 
 document.addEventListener('DOMContentLoaded', () => {
