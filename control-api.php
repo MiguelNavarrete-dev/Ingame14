@@ -18,7 +18,7 @@
     }
 
     function getYouTubeLastStream($config) {
-        $url = "https://www.googleapis.com/youtube/v3/search?key={$config['YT_API_KEY']}&channelId={$config['YT_CHANNEL_ID']}&part=snippet,id&type=video&order=date&maxResults=1";
+        $url = "https://www.googleapis.com/youtube/v3/search?key={$config['YT_API_KEY']}&channelId={$config['YT_CHANNEL_ID']}&part=snippet,id&type=video&eventType=completed&order=date&maxResults=1";
         $response = @file_get_contents($url);
         return json_decode($response, true);
     }
