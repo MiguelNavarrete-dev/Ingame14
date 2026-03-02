@@ -48,6 +48,3 @@ Para que el proyecto funcione, necesitas configurar las siguientes llaves en tu 
 
 ## 🛡️ Verificación
 Este sitio ha sido verificado en **Google Search Console** mediante el método de archivo HTML para optimizar el SEO y aparecer en los resultados de búsqueda.
-
----
-Hecho con ❤️ por [Tu Nombre/Dodo Digital]
