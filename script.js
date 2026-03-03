@@ -97,7 +97,7 @@ const estadoDirecto = {
         bannerClass: "border-red-500/50"
     },
     twitch_status: {
-        texto: '● EN VIVO (Twitch)',
+        texto: 'EN VIVO (Twitch)',
         dotClass: "dot-live-purple",
         bannerClass: "border-purple-500/50"
     },
