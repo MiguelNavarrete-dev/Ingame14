@@ -28,7 +28,6 @@ async function fetchYouTubeData() {
 
 async function fetchUltimoDirectoYouTube() {
     const url = `https://www.googleapis.com/youtube/v3/search?key=${CONFIG.YT_API_KEY}&channelId=${CONFIG.YT_CHANNEL_ID}&part=snippet,id&type=video&eventType=completed&order=date&maxResults=1`;
-    
     try {
         const response = await fetch(url);
         const data = await response.json();
